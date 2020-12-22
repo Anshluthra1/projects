@@ -1,0 +1,663 @@
+
+/*background color*/
+
+body{
+    background-color: #0C1027;
+}
+
+
+/*main section left side*/
+
+#mainsection{
+   background-color: #0C1027;
+	width: 72.5vw;
+	height: auto;
+	display: inline-block;
+	overflow: hidden;
+    float: left;
+    display: flex;
+    flex-direction: column;
+}
+
+/*sub section right section*/
+
+#subsection{
+    background-color: #0C1027;
+	width: 25vw;
+	height: 100vh;
+	display: inline-block;
+    float: right; 
+}
+
+/*taskbar*/
+
+#header{
+    
+    width: 100%;
+    position: absolute;
+    height: 50px;
+    background-color: #0C1027;
+    border-color: #0C1027;
+    display: flex;
+}
+
+/*header main logo*/
+
+#logo{
+    height: 50px;
+    width: 50px;
+    margin-left:  10px;
+}
+
+/*header main title*/
+
+#header>p{
+    color: white;
+/*    display: inline-block;*/
+    margin-left: 10px;
+    font-size: 20px;
+    margin-top: 0px;
+    font-family: "RobotoDraft", "Roboto", sans-serif;
+}
+
+/*favourite (link)*/
+
+#header a{
+    color: white;
+    font-size: 13px;
+    text-decoration: none;
+    margin-left: 5vw;
+    font-family: "RobotoDraft", "Roboto", sans-serif;
+}
+
+/*search bar*/
+{
+  box-sizing: border-box;
+    
+}
+
+/* Style the search field */
+form.example input[type=text] 
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 5%;
+  background: #f1f1f1;
+
+
+/* Style the submit button */
+{form.example button
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: #2196F3;
+    
+    
+  color: white;
+  font-size: 17px;
+    font-family:cursive;
+    font color: azure;
+  border: 1px solid grey;
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+}
+
+
+form.example button:hover {
+  background: #0b7dda;
+}
+
+/* Clear floats */
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+#header input{
+    border-radius: 100px;
+    height: 30px;
+    width: 400px;
+    margin-left: 10vw;
+    background-color: #12193E;
+    border-color:white;
+    font-family: cursive;
+    
+font color: azure;
+    hanging-punctuation: allow-end
+}
+
+/*notification icon*/
+
+#noti{
+    height: 25px;
+    width: 25px;
+    margin-left: 40px;
+    margin-top: 8px;
+}
+
+/*profile photo*/
+
+#profile{
+    height: 40px;
+    width: 40px;
+    margin-left: 90px;
+    border-radius: 50%;
+    background-color: grey;
+}
+
+/*animation art conatiner div*/
+
+#main-container{
+    width: 60%;
+    margin-top: 10%;
+    margin-left: 11vw;
+    height: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: visible;
+}
+
+/*1st div*/
+
+.box1{
+    width: 250px;
+    height: 150px;
+    margin: 0px 10px;
+    transition: 0.5s;
+    box-shadow: 5px 10px 20px 2px black;
+}
+
+#main1 img{
+    width: 250px;
+    height: 150px;
+}
+
+.box1:hover{
+    transform: scale(1.5);
+}
+
+/*2nd div*/
+
+.box2{
+    width: 300px;
+    height: 250px;
+    background-color: red;
+    margin: 0px 10px;
+    transition: 0.5s;
+    margin-left: -60px;
+     box-shadow: 5px 10px 20px 2px black;
+}
+
+#main2 img{
+    width: 300px;
+    height: 200px;
+}
+
+.box2:hover{
+    transform: scale(1.3);
+}
+
+/*3rd div*/
+
+.box3{
+    width: 250px;
+    height: 200px;
+    margin: 0px 10px;
+    transition: 0.5s;
+    margin-left: -60px;
+     box-shadow: 5px 10px 20px 2px black;
+}
+
+.box3:hover{
+    transform: scale(1.5);
+}
+
+#main3 img{
+    width: 450px;
+    height: 250px;
+    background-size: cover;
+}
+
+/*subsection title (queue)*/
+
+#subsection h4{
+    color: white;
+    font-size: 20px;
+    margin-top: 100px;
+    text-align: left;
+    font-family: "RobotoDraft", "Roboto", sans-serif;
+    
+}
+
+/*latest release conatiner div*/
+
+#latest-release{
+    height: 25vh;
+    margin-left: 17.7%;
+    width: 50vw;
+    margin-top: -3vh;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-content: space-around;
+    flex-direction: row;
+}
+
+/*used in headers of main section titles*/
+
+#latest{
+    color: white;
+    margin-left: 19.5%;
+    font-family: "RobotoDraft", "Roboto", sans-serif;
+}
+
+/*latest release divs contain image and title*/
+
+.songs{
+    height: 10vh;
+    width: 23vw;
+    margin-left: 20px;
+    display: flex;
+}
+
+/*latest release images*/
+.songs img{
+    width: 80px;
+    height: 80px;
+}
+
+/*latest release title and subtitile*/
+
+.title{
+    color: white;
+    margin-left: 10px;
+    font-family: "RobotoDraft", "Roboto", sans-serif;
+    font-size: 13px;
+}
+
+.title span{
+    color: grey;
+}
+
+/*popular artist div conatin singer images*/
+
+#popular{
+    height: 12vh;
+    margin-left: 17.3%;
+    width: 59vw;
+    margin-top: -2vh;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-content: space-around;
+    flex-direction: row;
+}
+
+/*images of artists*/
+
+#popular img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-left: 30px;
+}
+
+/*music genere div conatin music type images*/
+
+#gen{
+    height: 11vh;
+    margin-left: 19.5%;
+    width: 55.7vw;
+    margin-top: 7vh;
+    background-color: #101642;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-content: space-around;
+    flex-direction: row;
+}
+
+/*images of genere*/
+
+#gen img{
+    height: 70px;
+    width: 70px;
+    margin-left: 14px;
+    border-radius: 50%;
+}
+
+/*queue div conatiner of music list*/
+
+#queue{
+
+    width: 100%;
+    height: 100%;
+    margin-top: -1vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+/*class used in queue music applied insepearte div*/
+
+.q1{
+
+    width: 370px;
+    height: 60px;
+    display: flex;
+    color: lightgray;
+    font-family: "RobotoDraft", "Roboto", sans-serif;
+    
+}
+
+/*class used for sizing images of queued music */
+
+.q1 img{
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+}
+
+/*color of titles of queued music*/
+
+.title-side{
+    color: white;
+    margin-left: 10px;
+}
+
+/*class used to change prop. of number and artist in queued music*/
+.number-name{
+    font-size: 13px;
+     color: lightgray;
+}
+
+/*main banner playlist conatiner*/
+
+#playlist{
+    height: 20vh;
+    margin-left: 18.5%;
+    width: 57vw;
+    margin-top: 7vh;
+    display: flex;
+    justify-content: flex-start;    
+    flex-wrap: wrap;
+    align-content: space-around;
+    flex-direction: row;
+}
+
+/*playlist banners*/
+
+.albums{
+    width: 278px;
+    height: 150px;
+    background-color: red;
+}
+
+.albums{
+    margin-left: 10px;
+}
+
+.albums:hover{
+    transform: scale(1.1);
+    transition: 0.5s ease-in-out;
+}
+
+/*latest english music main conatiner div*/
+
+#latest-english{
+    height: 18vh;
+    margin-left: 19.5%;
+    width: 56.5vw;
+    display: flex;
+    justify-content: flex-start;    
+    flex-wrap: wrap;
+    align-content: space-between;
+    flex-direction: row;
+}
+
+/*child div's of latest english*/
+
+.latest-english-music{
+
+    width: 6vw;
+    height: 17vh;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+
+}
+
+/*latest-english-music images in div*/
+
+.latest-english-music img{
+    width: 6vw;
+    height: 12vh;
+}
+
+/*latest english music peragraph*/
+
+.latest-english-music p{
+    font-family: "RobotoDraft", "Roboto", sans-serif;
+    font-size: 13px;
+    color: white;
+}
+
+.latest-english-music span{
+    color: grey;
+}
+
+/*latest punjabi music main conatiner div*/
+
+#latest-punjabi{
+    height: 18vh;
+    margin-left: 19.5%;
+    width: 56.5vw;
+    display: flex;
+    justify-content: flex-start;    
+    flex-wrap: wrap;
+    align-content: space-between;
+    flex-direction: row;
+}
+
+/*child div's of latest punjabi*/
+
+.latest-punjabi-music{
+
+    width: 6vw;
+    height: 17vh;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+
+}
+
+/*latest-punjabi-music images in div*/
+
+.latest-punjabi-music img{
+    width: 6vw;
+    height: 12vh;
+}
+
+/*latest punjabi music peragraph*/
+
+.latest-punjabi-music p{
+    font-family: "RobotoDraft", "Roboto", sans-serif;
+    font-size: 13px;
+    color: white;
+}
+
+.latest-punjabi-music span{
+    color: grey;
+}
+element.style {
+}
+.icons-shuffling {
+    width: 100%;
+    height: 40%;
+}
+}
+.about-song{
+	margin-top:10px;
+	margin-bottom: 10px;
+	margin-left: 15px;
+	height: auto;
+	width: auto;
+}
+.about-song h2{
+	font-size: 1.4rem;
+	color: white;
+    margin-bottom: 1px;
+}
+.about-song p{
+	font-size: 1rem;
+	color: grey;
+
+}
+.icons2{
+	margin: 7px;
+    display: flex;
+    width: 70px;
+    height: auto;
+
+}
+.icons2 i{
+	color: white;
+	font-size: 1rem;
+	margin-right: 10px;
+	margin-top: 10px;
+}
+.adding-music{
+	position: absolute;
+	left: 39%;
+	width: 30%;
+	top: 5px;
+	bottom: 5px;
+	display: flex;
+	flex-direction: column;
+}
+.icons-shuffling{
+	width: 100%;
+	height: 40%;
+	
+}
+.icons-shuffling i:hover{
+     box-shadow: 0px 0px 8px 7px lightgrey;
+}
+.icons-shuffling #icon1{
+	 margin-left: 150px;
+	 margin-top: 10px;
+	 font-size: 1rem;
+	 color: white;
+	 
+}
+.icon2{
+	margin-left: 20px;
+	margin-top: 10px;
+	font-size: 1rem;
+	color: white;
+
+}
+.fluid-reacher{
+   width: 100%;
+   height: 60%;
+}
+.fluid-reacher span{
+	margin-left: 30px;
+	margin-top:5px;
+	font-size: 0.8rem;
+	color: grey;
+	display: flex;
+}
+.song-amount{
+	margin-left: 70px;
+	margin-top: 1050px;
+	width: 70%;
+	height: 4px;
+	background: grey;
+	position: relative;
+	border-radius: 0.7rem;
+}
+.song-amount:hover > div{
+	width: 0%;
+	animation: widthdiv 3s 1;
+
+}
+@keyframes widthdiv{
+	0%{
+		width: 0%;
+	}
+	
+	50%{
+		width: 50%;
+	}
+	100%{
+		width: 100%;
+	}
+}
+.fill{
+	height: 4px;
+	position: relative;
+	width: 100px;
+	background-color: lightgreen;
+}
+.fill >div{
+	position: absolute;
+	top: -100%;
+	height: 13px;
+	width: 13px;
+	border-radius: 50%;
+	right: 0%;
+	background: white;
+}
+#end-audio{
+	position: absolute;
+	right:  8%;
+	top: 30%;
+}
+.increase-width{
+	position:sticky;
+	right: 9%;
+	width: 100px;
+	height: 50px;
+	top: 0px;
+	border: 1px solid white;
+	display: flex;
+	flex-direction: row;
+}
+.volume-upicon{
+	margin-left: 2px;
+	margin-top: 10px;
+	height: auto;
+	width: auto;
+}
+.volume-upicon i{
+	font-size: 1rem;
+	color: white;
+}
+.timeline{
+	margin-left: 4px;
+	margin-top: 18px;
+	width: 55px;
+	height: 2.5px;
+	border: 1px solid white;
+	border-radius: 0.7rem;
+}
+.timeline >div{
+	height: 2.5px;
+	width: 20%;
+	border-radius: 0.7rem;
+	background: lightgreen;
+
+}
+.timeline:hover >div{
+	width: 20%;
+	animation:width 4s infinite;
+}
+
+
+
